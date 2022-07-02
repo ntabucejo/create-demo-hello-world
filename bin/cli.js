@@ -10,7 +10,7 @@ const runCommand = (command) => {
 };
 
 const repositoryName = process.argv[2];
-const gitCheckoutCommand = `git clone --dept 1 https://github.com/ntabucejo/create-demo-hello-world ${repositoryName}`;
+const gitCheckoutCommand = `git clone --dept 1 https://github.com/ntabucejo/create-demo-hello-world.git ${repositoryName}`;
 const installDepsCommand = `cd ${repositoryName} && npm install`;
 
 console.log(`Cloning the repository with name ${repositoryName}`);
