@@ -1,0 +1,16 @@
+{
+  "name": "@ntabucejo/create-demo-hello-world",
+  "version": "2.0.0",
+  "description": "",
+  "bin": "./bin/cli/js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ntabucejo/demo-hello-world"
+  },
+  "author": "Nikko Abucejo",
+  "license": "ISC"
+}
